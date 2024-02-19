@@ -17,28 +17,24 @@
     --font: 'Figtree', sans-serif;
 }
 
-body {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: var(--Yellow);
-}
-
-.container {
-    box-shadow: 8px 8px black;
-    border: 1px solid black;
-    max-width: 350px;
-    margin: 0px 25px;
-    padding: 20px;
-    border-radius: 15px;
-    background-color: var(--White);
+    background-color: var(--Yellow);  
 }
 
 .conteudo {
+    box-shadow: 8px 8px black;
+    border: 1px solid black;
+    max-width: 330px;
+    margin: 0px 25px;
+    padding: 22px;
+    border-radius: 15px;
+    background-color: var(--White);
     display: flex;
     flex-direction: column;
-    gap: 20px;
     color: var(--Black);
 }
 
@@ -48,6 +44,7 @@ body {
 }
 
 .learning {
+    margin-top: 20px;
     width: max-content;
     padding: 5px 10px;
     border-radius: 5px;
@@ -61,16 +58,17 @@ body {
     font-weight:bold;
 }
 
-.conteudo h1 {
+.published {
+    margin: 18px 0px;
+    font-size: 14px;
+}
+
+.titulo {
     width: max-content;
     font-size: 1.5rem;
 }
 
-.published {
-    font-size: 13px;
-}
-
-h1:hover {
+.titulo:hover {
     color: var(--Yellow);
 }
 
@@ -109,7 +107,7 @@ h1:hover {
          font-size: 14px;
     }
 
-    .conteudo h1 {
+    .titutlo {
         font-size: 1.3rem;
     }
 
