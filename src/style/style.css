@@ -96,6 +96,10 @@
     font-weight: bolder;
 }
 
+.avatar .people {
+    filter: grayscale(40%);
+}
+
 .avatar img {
     width: 30px;
     padding-right: 7px;
